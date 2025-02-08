@@ -13,5 +13,6 @@ body {
     body {
         background-position: calc(63% - 10%) center; /* Mantiene el desplazamiento a la izquierda en pantallas pequeñas */
         background-size: cover;
+        background-image: url('../image/DALL·E\ 2025-02-08\ 20.35.50\ -\ A\ dark\ and\ intense\ stadium\ at\ night\,\ combining\ heavy\ metal\ and\ football\ themes.\ The\ stadium\ lights\ glow\ red\ and\ white\,\ illuminating\ the\ field\ with\ a\ d.webp'); 
     }
 }
