@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario Liga Metalera</title>
+
+        <!-- fuente del titulo -->
+        <style> @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap'); </style>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+      emailjs.init('EGPqtc1Hc0LSI3QtF');
+    </script>
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/formulario.css">
+</head>
+<body>
+  <header>
+    <h1>⚽⚡Liga Metalera⚡⚽</h1>
+  </header>
+  <main>
+    <section class="presentación">
+      <p>Esta es una liga metalera creada para divertirse, compartir la pasión por la música y disfrutar de la competencia en un ambiente lleno de adrenalina. Aquí, los verdaderos guerreros del metal se enfrentan en un torneo diseñado para poner a prueba su destreza y conocimiento. Antes de unirte a la batalla, primero debes completar una pequeña prueba de inscripción. Esta servirá para asegurarnos de que estás listo para la intensidad del torneo y que compartes el espíritu de la liga. No importa si eres un veterano del metal o un recién llegado, lo importante es que traigas tu mejor actitud y ganas de participar. Prepárate para demostrar tu pasión y sumergirte en una experiencia única, donde la música, la emoción y la competencia se combinan para crear algo épico. ¡Únete y deja tu huella en la liga metalera!</p>
+   </section>
+  <section class="Cuestionario">
+    <div class="Cuestionario">
+      <h1>Cuestionario</h1>
+      <form id="form">
+        <!-- Nombre del usuario -->
+        <div class="field">
+          <label for="from_name">Tu Nombre</label>
+          <input type="text" name="from_name" id="from_name" required>
+        </div>
+        <!-- Nombre del equipo -->
+    <div class="field">
+      <label label for="from_nameteam">Nombre del equipo</label>
+      <input type="text" name="from_nameteam" id="from_nameteam" required>
+    </div>
+
+        
+        <!-- Pregunta 1 -->
+        <div class="field">
+          <label for="q1">1. ¿Qué banda es considerada la cradora del heavy metal con su álbum debut de 1970?</label><br>
+          <input type="radio" name="q1" value="Deep Purple" id="q1_Deep_Purple"> Deep Purple<br>
+          <input type="radio" name="q1" value="Black sabbath" id="q1_Black_sabbath"> Black sabbath<br>
+          <input type="radio" name="q1" value="Led Zeppelin" id="q1_Led_Zeppelin"> Led Zeppelin<br>
+        </div>
+
+        <!-- Pregunta 2 -->
+        <div class="field">
+          <label for="q2">2. ¿Cual es el nombre del vocalista de Iron Maiden?</label><br>
+          <input type="radio" name="q2" value="Paul Di'Anno" id="q2_Paul_Di_Anno"> Paul Di'Anno<br>
+          <input type="radio" name="q2" value="Bruce Dickinson" id="q2_Bruce_Dickinson"> Bruce Dickinson<br>
+          <input type="radio" name="q2" value="Blaze bayley" id="q2_Blaze_bayley"> Blaze bayley<br>
+        </div>
+          
+        <!-- Pregunta 3 -->
+        <div class="field">
+          <label for="q3">3. ¿Cual significa el termino "Big Four" en el thrash metal? ¿Qué bandas lo componen?</label><br>
+          <input type="radio" name="q3" value=" Metallica, Slayer, Megadeth y Anthrax" id="q3_MSMA">  Metallica, Slayer, Megadeth y Anthrax<br>
+          <input type="radio" name="q3" value="Metallica, Pantera, Megadeth y Sepultura" id="q3_MPMS"> Metallica, Pantera, Megadeth y Sepultura<br>
+          <input type="radio" name="q3" value="Slayer, Exodus, Testament y Overkill" id="q3_SETO"> Slayer, Exodus, Testament y Overkill<br>
+        </div>
+        
+        <!-- Pregunta 4 -->
+        <div class="field">
+          <label for="q4">4. ¿Qué banda lanzó la canción "Holy Diver" en 1983?</label><br>
+          <input type="radio" name="q4" value="Dio" id="q4_Dio"> Dio<br>
+          <input type="radio" name="q4" value="Judas Priest" id="q4_Judas_Priest"> Judas Priest<br>
+          <input type="radio" name="q4" value="Motörhead" id="q4_Motörhead"> Motörhead<br>
+        </div>
+        
+        <!-- Pregunta 5 -->
+        <div class="field">
+          <label for="q5">5. ¿Qué banda noruega es conocida por su influencia en el black metal y por su controversial historia?</label><br>
+          <input type="radio" name="q5" value="Burzum" id="q5_Burzum"> Burzum<br>
+          <input type="radio" name="q5" value="Mayhem" id="q5_Mayhem"> Mayhem<br>
+          <input type="radio" name="q5" value="Darkthrone" id="q5_Darkthrone"> Darkthrone<br>
+        </div>
+
+        <!-- Pregunta 6 -->
+        <div class="field">
+          <label for="q6">6. ¿Cuál es la primera banda considerada death metal?</label><br>
+          <input type="radio" name="q6" value="Possessed" id="q6_Possessed"> Possessed<br>
+          <input type="radio" name="q6" value="Death" id="q6_Death"> Death<br>
+          <input type="radio" name="q6" value="Cannibal Corpse" id="q6_Cannibal_Corpse"> Cannibal Corpse<br>
+        </div>
+
+        <!-- Pregunta 7 -->
+        <div class="field">
+          <label for="q7">7. ¿Quién es el fundador de la banda Death, considerada pionera del género?</label><br>
+          <input type="radio" name="q7" value="Glen Benton" id="q6_Glen_Benton"> Glen Benton<br>
+          <input type="radio" name="q7" value="Jeff Hanneman" id="q6_Jeff_Hanneman"> Jeff Hanneman<br>
+          <input type="radio" name="q7" value="Chuck Schuldiner" id="q6_Chuck_Schuldiner"> Chuck Schuldiner<br>
+        </div>
+
+        <!-- Pregunta 8 -->
+        <div class="field">
+          <label for="q8">8. ¿Qué banda lanzó el álbum "De Mysteriis Dom Sathanas" en 1994?</label><br>
+          <input type="radio" name="q8" value="Mayhem" id="q8_Mayhem"> Mayhem<br>
+          <input type="radio" name="q8" value="Empeoror" id="q8_Empeoror"> Empeoror<br>
+          <input type="radio" name="q8" value="Gorgoroth" id="q8_Gorgoroth"> Gorgorothr<br>
+        </div>
+
+        <!-- Pregunta 9 -->
+        <div class="field">
+          <label for="q9">9. ¿En qué año se fundó la banda Slayer y cuál fue su primer álbum?</label><br>
+          <input type="radio" name="q9" value="1985 - Hell Awaits" id="q9_1985_Hell_Awaits"> 1985 - Hell Awaits<br>
+          <input type="radio" name="q9" value="1983 - Reign in Blood" id="q9_1983_Reign_in_Blood"> 1983 - Reign in Blood<br>
+          <input type="radio" name="q9" value="1981 - Show No Mercy" id="q9_1981_Show_No_Mercy"> 1981 - Show No Mercy<br>
+        </div>
+ 
+        <!-- Pregunta 10 -->
+        <div class="field">
+          <label for="q10">10. ¿Cómo se llama el baterista de Dream Theater, famoso por su técnica compleja?</label><br>
+          <input type="radio" name="q10" value="Mike Mangini" id="q10_Mike_Mangini"> Mike Mangini<br>
+          <input type="radio" name="q10" value="Mike Portnoy" id="q10_Mike_Portnoy"> Mike Portnoy<br>
+          <input type="radio" name="q10" value="Mike howe" id="q10_Mike_howe"> Mike howe<br>
+        </div>
+        
+        <!-- Email del usuario -->
+        <div class="field">
+          <label for="email_id">Email</label>
+          <input type="email" name="email_id" id="email_id" required>
+        </div>
+
+        <!-- Botón de envío -->
+        <input type="submit" id="button" value="Enviar Cuestionario">
+      </form>
+    </div>
+  </section>
+</main>
+
+  <script src="./js/java.js"></script>
+</body>
+</html>

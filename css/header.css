@@ -1,0 +1,24 @@
+header {
+    width: 100%;
+    height: 250px;
+    z-index: 1000px;
+    font-weight: bold;
+    color: white; /* Color del texto */
+    text-shadow: 2px 2px 4px black; /* Sombra negra para mayor visibilidad */
+    margin: 0;
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+    align-content: center;
+}
+@media screen and (max-width: 430px) {
+    header {
+        height: 180px; /* Reducir la altura para adaptarse mejor a pantallas pequeñas */
+        font-size: 14px; /* Ajustar el tamaño del texto */
+        padding: 15px; /* Reducir el padding */
+        letter-spacing: 3px; /* Ajustar el espaciado de letras */
+    }
+}

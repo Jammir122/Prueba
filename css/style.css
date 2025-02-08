@@ -1,0 +1,17 @@
+body {
+    font-family: 'Metal Mania', cursive;
+    font-weight: bold;
+    background-image: url('../image/DALL·E\ 2025-02-08\ 19.19.41\ -\ A\ dark\ and\ intense\ stadium\ at\ night\,\ combining\ heavy\ metal\ and\ football\ themes.\ The\ stadium\ lights\ glow\ red\ and\ white\,\ illuminating\ the\ field\ with\ a\ d.webp'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: calc(50% - 10%) center; /* Mueve la imagen un 10% hacia la izquierda */
+    background-attachment: fixed;
+}
+
+/* Responsividad para pantallas más pequeñas */
+@media (max-width: 768px) {
+    body {
+        background-position: calc(63% - 10%) center; /* Mantiene el desplazamiento a la izquierda en pantallas pequeñas */
+        background-size: cover;
+    }
+}

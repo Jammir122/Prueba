@@ -1,0 +1,98 @@
+main{
+    font-weight: bold;
+    color: white; /* Color del texto */
+    text-shadow: 2px 2px 4px black; /* Sombra negra para mayor visibilidad */
+}
+main p{
+    text-align: center;
+}
+.Cuestionario h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 70px;
+    text-transform: uppercase; /* Mayúsculas para un estilo agresivo */
+    letter-spacing: 5px;
+}
+.presentación {
+    font-size: 30px;
+}
+
+.field {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.field label {
+    display: block;
+    font-size: 35px;
+}
+
+.field input {
+    min-width: 30px;
+    line-height: 1.5;
+}
+
+/* Estilización del botón tipo guitarra o metalero */
+input[type="submit"] {
+    display: block;
+    padding: 10px 40px;
+    font-size: 25px;
+    background-color: #333; /* Un fondo oscuro tipo metal */
+    color: white; /* Texto blanco */
+    border: 3px solid #888; /* Borde metalizado */
+    border-radius: 8px; /* Bordes redondeados para un toque suave */
+    font-family: 'Impact', sans-serif; /* Fuente estilo fuerte */
+    text-transform: uppercase; /* Mayúsculas para un estilo agresivo */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4); /* Sombra que da un toque de profundidad */
+    transition: all 0.3s ease; /* Efecto de transición para interactividad */
+}
+
+/* Efecto al pasar el cursor sobre el botón */
+input[type="submit"]:hover {
+    background-color: #900; /* Cambia a un rojo oscuro al hacer hover */
+    border-color: #fff; /* Borde blanco cuando el mouse pasa sobre el botón */
+    box-shadow: 0 5px 25px rgba(255, 0, 0, 0.7); /* Sombra más fuerte */
+}
+
+/* Efecto al hacer clic en el botón */
+input[type="submit"]:active {
+    background-color: #c00; /* Rojo más fuerte cuando se hace clic */
+    transform: scale(0.98); /* El botón se encoge ligeramente */
+}
+
+/* Añadir una textura sutil de acero (puedes probar con una imagen de textura metálica si lo prefieres) */
+input[type="submit"] {
+    background-image: url('../image/Guitarra.jpeg'); /* Asegúrate de tener una imagen de fondo metálica */
+    background-size: contain; /* Evita que se deforme */
+    background-size: cover;
+    background-position: center center; /* Centra la imagen */
+}
+
+/* Media Query para pantallas de 500px o menos */
+@media (max-width: 500px) {
+    main{
+        margin: 10px;
+        font-weight: bold;
+        color: white; /* Color del texto */
+        text-shadow: 2px 2px 4px black; /* Sombra negra para mayor visibilidad */
+    }
+    .Cuestionario h1 {
+        font-size: 40px; /* Reduce el tamaño del título */
+        letter-spacing: 2px;
+    }
+    .presentación {
+        font-size: 20px; /* Reduce el tamaño del texto de presentación */
+    }
+    .field {
+        font-size: 20px;
+    }
+    .field label {
+        font-size: 25px;
+    }
+    input[type="submit"] {
+        padding: 8px 30px;
+        font-size: 20px;
+    }
+}
